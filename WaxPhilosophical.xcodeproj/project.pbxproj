@@ -205,9 +205,9 @@
 			children = (
 				AD91B55F2AF4024700DF1446 /* Components */,
 				AD91B55A2AF4023C00DF1446 /* Extensions */,
-				AD91B5452AF401DD00DF1446 /* Source */,
 				AD91B5322AF3FCD000DF1446 /* Preview Content */,
 				AD91B5532AF4022D00DF1446 /* Protocols */,
+				AD91B5452AF401DD00DF1446 /* Source */,
 				AD91B5462AF4020900DF1446 /* Utils */,
 			);
 			path = WaxPhilosophical;
@@ -235,12 +235,12 @@
 		AD91B5462AF4020900DF1446 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				AD91B5472AF4020900DF1446 /* Constants.swift */,
-				AD91B5482AF4020900DF1446 /* TextArea.swift */,
 				AD91B5492AF4020900DF1446 /* BlueLinearGradient.swift */,
+				AD91B54C2AF4020900DF1446 /* ConcaveTabbarShape.swift */,
+				AD91B5472AF4020900DF1446 /* Constants.swift */,
 				AD91B54A2AF4020900DF1446 /* CustomSecureField.swift */,
 				AD91B54B2AF4020900DF1446 /* CustomTextField.swift */,
-				AD91B54C2AF4020900DF1446 /* ConcaveTabbarShape.swift */,
+				AD91B5482AF4020900DF1446 /* TextArea.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
