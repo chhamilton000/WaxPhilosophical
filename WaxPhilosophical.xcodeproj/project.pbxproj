@@ -1,0 +1,1089 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD91B52D2AF3FCCF00DF1446 /* WaxPhilosophicalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B52C2AF3FCCF00DF1446 /* WaxPhilosophicalApp.swift */; };
+		AD91B52F2AF3FCCF00DF1446 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B52E2AF3FCCF00DF1446 /* ContentView.swift */; };
+		AD91B5312AF3FCD000DF1446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD91B5302AF3FCD000DF1446 /* Assets.xcassets */; };
+		AD91B5342AF3FCD000DF1446 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD91B5332AF3FCD000DF1446 /* Preview Assets.xcassets */; };
+		AD91B53C2AF4014900DF1446 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AD91B53B2AF4014900DF1446 /* FirebaseAuth */; };
+		AD91B53E2AF4014900DF1446 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = AD91B53D2AF4014900DF1446 /* FirebaseFirestore */; };
+		AD91B5402AF4014900DF1446 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AD91B53F2AF4014900DF1446 /* FirebaseFirestoreSwift */; };
+		AD91B5422AF4014900DF1446 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = AD91B5412AF4014900DF1446 /* FirebaseStorage */; };
+		AD91B5442AF401C700DF1446 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD91B5432AF401C700DF1446 /* GoogleService-Info.plist */; };
+		AD91B54D2AF4020900DF1446 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5472AF4020900DF1446 /* Constants.swift */; };
+		AD91B54E2AF4020900DF1446 /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5482AF4020900DF1446 /* TextArea.swift */; };
+		AD91B54F2AF4020900DF1446 /* BlueLinearGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5492AF4020900DF1446 /* BlueLinearGradient.swift */; };
+		AD91B5502AF4020900DF1446 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B54A2AF4020900DF1446 /* CustomSecureField.swift */; };
+		AD91B5512AF4020900DF1446 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B54B2AF4020900DF1446 /* CustomTextField.swift */; };
+		AD91B5522AF4020900DF1446 /* ConcaveTabbarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B54C2AF4020900DF1446 /* ConcaveTabbarShape.swift */; };
+		AD91B5572AF4022D00DF1446 /* FirebaseUserService_Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5542AF4022D00DF1446 /* FirebaseUserService_Protocol.swift */; };
+		AD91B5582AF4022D00DF1446 /* FirebaseAuthServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5552AF4022D00DF1446 /* FirebaseAuthServiceProtocol.swift */; };
+		AD91B5592AF4022D00DF1446 /* CollectionViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5562AF4022D00DF1446 /* CollectionViewModelProtocol.swift */; };
+		AD91B55D2AF4023C00DF1446 /* View+BottomPaddingBecauseOfCustomTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B55B2AF4023C00DF1446 /* View+BottomPaddingBecauseOfCustomTab.swift */; };
+		AD91B55E2AF4023C00DF1446 /* View+ForegroundLinearGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B55C2AF4023C00DF1446 /* View+ForegroundLinearGradient.swift */; };
+		AD91B5C62AF4024700DF1446 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5622AF4024700DF1446 /* ChatViewModel.swift */; };
+		AD91B5C72AF4024700DF1446 /* ConversationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5632AF4024700DF1446 /* ConversationsViewModel.swift */; };
+		AD91B5C82AF4024700DF1446 /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5652AF4024700DF1446 /* ChatBubble.swift */; };
+		AD91B5C92AF4024700DF1446 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5672AF4024700DF1446 /* Message.swift */; };
+		AD91B5CA2AF4024700DF1446 /* ConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5692AF4024700DF1446 /* ConversationCell.swift */; };
+		AD91B5CB2AF4024700DF1446 /* MessageInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B56A2AF4024700DF1446 /* MessageInputView.swift */; };
+		AD91B5CC2AF4024700DF1446 /* NewMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B56B2AF4024700DF1446 /* NewMessageView.swift */; };
+		AD91B5CD2AF4024700DF1446 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B56C2AF4024700DF1446 /* MessagesView.swift */; };
+		AD91B5CE2AF4024700DF1446 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B56D2AF4024700DF1446 /* ChatView.swift */; };
+		AD91B5CF2AF4024700DF1446 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B56E2AF4024700DF1446 /* MessageView.swift */; };
+		AD91B5D02AF4024700DF1446 /* UploadImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5702AF4024700DF1446 /* UploadImageService.swift */; };
+		AD91B5D12AF4024700DF1446 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5712AF4024700DF1446 /* ImagePicker.swift */; };
+		AD91B5D22AF4024700DF1446 /* Block_CollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5742AF4024700DF1446 /* Block_CollectionViewModel.swift */; };
+		AD91B5D32AF4024700DF1446 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5762AF4024700DF1446 /* Block.swift */; };
+		AD91B5D42AF4024700DF1446 /* BlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5772AF4024700DF1446 /* BlockView.swift */; };
+		AD91B5D52AF4024700DF1446 /* WPActionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B57B2AF4024700DF1446 /* WPActionViewModel.swift */; };
+		AD91B5D62AF4024700DF1446 /* WPQuote_CollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B57C2AF4024700DF1446 /* WPQuote_CollectionViewModel.swift */; };
+		AD91B5D72AF4024700DF1446 /* UploadWPQuoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B57D2AF4024700DF1446 /* UploadWPQuoteViewModel.swift */; };
+		AD91B5D82AF4024700DF1446 /* WPQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B57F2AF4024700DF1446 /* WPQuote.swift */; };
+		AD91B5D92AF4024700DF1446 /* WPQuoteCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5812AF4024700DF1446 /* WPQuoteCollectionView.swift */; };
+		AD91B5DA2AF4024700DF1446 /* WPQuoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5822AF4024700DF1446 /* WPQuoteCell.swift */; };
+		AD91B5DB2AF4024700DF1446 /* AddWPQuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5832AF4024700DF1446 /* AddWPQuoteView.swift */; };
+		AD91B5DC2AF4024700DF1446 /* ReplyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5842AF4024700DF1446 /* ReplyCell.swift */; };
+		AD91B5DD2AF4024700DF1446 /* WPQuoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5852AF4024700DF1446 /* WPQuoteDetailView.swift */; };
+		AD91B5DE2AF4024700DF1446 /* WPActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5862AF4024700DF1446 /* WPActionsView.swift */; };
+		AD91B5DF2AF4024700DF1446 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5882AF4024700DF1446 /* UserService.swift */; };
+		AD91B5E02AF4024700DF1446 /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5892AF4024700DF1446 /* AppUser.swift */; };
+		AD91B5E12AF4024700DF1446 /* UserStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B58A2AF4024700DF1446 /* UserStats.swift */; };
+		AD91B5E22AF4024700DF1446 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B58D2AF4024700DF1446 /* SearchViewModel.swift */; };
+		AD91B5E32AF4024700DF1446 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B58F2AF4024700DF1446 /* SearchView.swift */; };
+		AD91B5E42AF4024700DF1446 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5902AF4024700DF1446 /* SearchBar.swift */; };
+		AD91B5E52AF4024700DF1446 /* SearchedUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5912AF4024700DF1446 /* SearchedUserCell.swift */; };
+		AD91B5E62AF4024700DF1446 /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5942AF4024700DF1446 /* EditProfileViewModel.swift */; };
+		AD91B5E72AF4024700DF1446 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5952AF4024700DF1446 /* ProfileViewModel.swift */; };
+		AD91B5E82AF4024700DF1446 /* OtherUserProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5982AF4024700DF1446 /* OtherUserProfileViewModel.swift */; };
+		AD91B5E92AF4024700DF1446 /* OtherUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B59A2AF4024700DF1446 /* OtherUserProfileView.swift */; };
+		AD91B5EA2AF4024700DF1446 /* CurrentUserProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B59D2AF4024700DF1446 /* CurrentUserProfileViewModel.swift */; };
+		AD91B5EB2AF4024700DF1446 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B59F2AF4024700DF1446 /* CurrentUserProfileView.swift */; };
+		AD91B5EC2AF4024700DF1446 /* ProfilePicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5A02AF4024700DF1446 /* ProfilePicView.swift */; };
+		AD91B5ED2AF4024700DF1446 /* CurrentUser_ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5A12AF4024700DF1446 /* CurrentUser_ProfileView.swift */; };
+		AD91B5EE2AF4024700DF1446 /* FullnameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5A22AF4024700DF1446 /* FullnameView.swift */; };
+		AD91B5EF2AF4024700DF1446 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5A42AF4024700DF1446 /* EditProfileView.swift */; };
+		AD91B5F02AF4024700DF1446 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5A52AF4024700DF1446 /* ProfileHeaderView.swift */; };
+		AD91B5F12AF4024700DF1446 /* ProfileActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5A62AF4024700DF1446 /* ProfileActionButtonView.swift */; };
+		AD91B5F22AF4024700DF1446 /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5A92AF4024700DF1446 /* SideMenuViewModel.swift */; };
+		AD91B5F32AF4024700DF1446 /* SideMenuOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5AC2AF4024700DF1446 /* SideMenuOptionView.swift */; };
+		AD91B5F42AF4024700DF1446 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5AD2AF4024700DF1446 /* MenuView.swift */; };
+		AD91B5F52AF4024700DF1446 /* SideMenuAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5AF2AF4024700DF1446 /* SideMenuAction.swift */; };
+		AD91B5F62AF4024700DF1446 /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5B22AF4024700DF1446 /* TabsView.swift */; };
+		AD91B5F72AF4024700DF1446 /* TabbarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5B42AF4024700DF1446 /* TabbarService.swift */; };
+		AD91B5F82AF4024700DF1446 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5B72AF4024700DF1446 /* RegistrationView.swift */; };
+		AD91B5F92AF4024700DF1446 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5B82AF4024700DF1446 /* LoginView.swift */; };
+		AD91B5FA2AF4024700DF1446 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5BA2AF4024700DF1446 /* AuthService.swift */; };
+		AD91B5FB2AF4024700DF1446 /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5BD2AF4024700DF1446 /* NotificationViewModel.swift */; };
+		AD91B5FC2AF4024700DF1446 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5BF2AF4024700DF1446 /* Notification.swift */; };
+		AD91B5FD2AF4024700DF1446 /* NotificationTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5C12AF4024700DF1446 /* NotificationTweetView.swift */; };
+		AD91B5FE2AF4024700DF1446 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5C22AF4024700DF1446 /* NotificationCell.swift */; };
+		AD91B5FF2AF4024700DF1446 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5C32AF4024700DF1446 /* NotificationsView.swift */; };
+		AD91B6002AF4024700DF1446 /* TermsOfServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91B5C52AF4024700DF1446 /* TermsOfServiceView.swift */; };
+		AD91B6032AF4032A00DF1446 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = AD91B6022AF4032A00DF1446 /* Kingfisher */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD91B5292AF3FCCF00DF1446 /* WaxPhilosophical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaxPhilosophical.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD91B52C2AF3FCCF00DF1446 /* WaxPhilosophicalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaxPhilosophicalApp.swift; sourceTree = "<group>"; };
+		AD91B52E2AF3FCCF00DF1446 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD91B5302AF3FCD000DF1446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD91B5332AF3FCD000DF1446 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD91B5432AF401C700DF1446 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AD91B5472AF4020900DF1446 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AD91B5482AF4020900DF1446 /* TextArea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
+		AD91B5492AF4020900DF1446 /* BlueLinearGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueLinearGradient.swift; sourceTree = "<group>"; };
+		AD91B54A2AF4020900DF1446 /* CustomSecureField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
+		AD91B54B2AF4020900DF1446 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		AD91B54C2AF4020900DF1446 /* ConcaveTabbarShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcaveTabbarShape.swift; sourceTree = "<group>"; };
+		AD91B5542AF4022D00DF1446 /* FirebaseUserService_Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseUserService_Protocol.swift; sourceTree = "<group>"; };
+		AD91B5552AF4022D00DF1446 /* FirebaseAuthServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseAuthServiceProtocol.swift; sourceTree = "<group>"; };
+		AD91B5562AF4022D00DF1446 /* CollectionViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewModelProtocol.swift; sourceTree = "<group>"; };
+		AD91B55B2AF4023C00DF1446 /* View+BottomPaddingBecauseOfCustomTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+BottomPaddingBecauseOfCustomTab.swift"; sourceTree = "<group>"; };
+		AD91B55C2AF4023C00DF1446 /* View+ForegroundLinearGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+ForegroundLinearGradient.swift"; sourceTree = "<group>"; };
+		AD91B5622AF4024700DF1446 /* ChatViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		AD91B5632AF4024700DF1446 /* ConversationsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewModel.swift; sourceTree = "<group>"; };
+		AD91B5652AF4024700DF1446 /* ChatBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
+		AD91B5672AF4024700DF1446 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		AD91B5692AF4024700DF1446 /* ConversationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationCell.swift; sourceTree = "<group>"; };
+		AD91B56A2AF4024700DF1446 /* MessageInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageInputView.swift; sourceTree = "<group>"; };
+		AD91B56B2AF4024700DF1446 /* NewMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMessageView.swift; sourceTree = "<group>"; };
+		AD91B56C2AF4024700DF1446 /* MessagesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		AD91B56D2AF4024700DF1446 /* ChatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		AD91B56E2AF4024700DF1446 /* MessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		AD91B5702AF4024700DF1446 /* UploadImageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadImageService.swift; sourceTree = "<group>"; };
+		AD91B5712AF4024700DF1446 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		AD91B5742AF4024700DF1446 /* Block_CollectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block_CollectionViewModel.swift; sourceTree = "<group>"; };
+		AD91B5762AF4024700DF1446 /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		AD91B5772AF4024700DF1446 /* BlockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockView.swift; sourceTree = "<group>"; };
+		AD91B57B2AF4024700DF1446 /* WPActionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPActionViewModel.swift; sourceTree = "<group>"; };
+		AD91B57C2AF4024700DF1446 /* WPQuote_CollectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPQuote_CollectionViewModel.swift; sourceTree = "<group>"; };
+		AD91B57D2AF4024700DF1446 /* UploadWPQuoteViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadWPQuoteViewModel.swift; sourceTree = "<group>"; };
+		AD91B57F2AF4024700DF1446 /* WPQuote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPQuote.swift; sourceTree = "<group>"; };
+		AD91B5812AF4024700DF1446 /* WPQuoteCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPQuoteCollectionView.swift; sourceTree = "<group>"; };
+		AD91B5822AF4024700DF1446 /* WPQuoteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPQuoteCell.swift; sourceTree = "<group>"; };
+		AD91B5832AF4024700DF1446 /* AddWPQuoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWPQuoteView.swift; sourceTree = "<group>"; };
+		AD91B5842AF4024700DF1446 /* ReplyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplyCell.swift; sourceTree = "<group>"; };
+		AD91B5852AF4024700DF1446 /* WPQuoteDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPQuoteDetailView.swift; sourceTree = "<group>"; };
+		AD91B5862AF4024700DF1446 /* WPActionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPActionsView.swift; sourceTree = "<group>"; };
+		AD91B5882AF4024700DF1446 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		AD91B5892AF4024700DF1446 /* AppUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
+		AD91B58A2AF4024700DF1446 /* UserStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserStats.swift; sourceTree = "<group>"; };
+		AD91B58D2AF4024700DF1446 /* SearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		AD91B58F2AF4024700DF1446 /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		AD91B5902AF4024700DF1446 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		AD91B5912AF4024700DF1446 /* SearchedUserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchedUserCell.swift; sourceTree = "<group>"; };
+		AD91B5942AF4024700DF1446 /* EditProfileViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
+		AD91B5952AF4024700DF1446 /* ProfileViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		AD91B5982AF4024700DF1446 /* OtherUserProfileViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherUserProfileViewModel.swift; sourceTree = "<group>"; };
+		AD91B59A2AF4024700DF1446 /* OtherUserProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherUserProfileView.swift; sourceTree = "<group>"; };
+		AD91B59D2AF4024700DF1446 /* CurrentUserProfileViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileViewModel.swift; sourceTree = "<group>"; };
+		AD91B59F2AF4024700DF1446 /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
+		AD91B5A02AF4024700DF1446 /* ProfilePicView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePicView.swift; sourceTree = "<group>"; };
+		AD91B5A12AF4024700DF1446 /* CurrentUser_ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentUser_ProfileView.swift; sourceTree = "<group>"; };
+		AD91B5A22AF4024700DF1446 /* FullnameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullnameView.swift; sourceTree = "<group>"; };
+		AD91B5A42AF4024700DF1446 /* EditProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		AD91B5A52AF4024700DF1446 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		AD91B5A62AF4024700DF1446 /* ProfileActionButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileActionButtonView.swift; sourceTree = "<group>"; };
+		AD91B5A92AF4024700DF1446 /* SideMenuViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
+		AD91B5AC2AF4024700DF1446 /* SideMenuOptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuOptionView.swift; sourceTree = "<group>"; };
+		AD91B5AD2AF4024700DF1446 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		AD91B5AF2AF4024700DF1446 /* SideMenuAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuAction.swift; sourceTree = "<group>"; };
+		AD91B5B22AF4024700DF1446 /* TabsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
+		AD91B5B42AF4024700DF1446 /* TabbarService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarService.swift; sourceTree = "<group>"; };
+		AD91B5B72AF4024700DF1446 /* RegistrationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		AD91B5B82AF4024700DF1446 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AD91B5BA2AF4024700DF1446 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		AD91B5BD2AF4024700DF1446 /* NotificationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewModel.swift; sourceTree = "<group>"; };
+		AD91B5BF2AF4024700DF1446 /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		AD91B5C12AF4024700DF1446 /* NotificationTweetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationTweetView.swift; sourceTree = "<group>"; };
+		AD91B5C22AF4024700DF1446 /* NotificationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		AD91B5C32AF4024700DF1446 /* NotificationsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		AD91B5C52AF4024700DF1446 /* TermsOfServiceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsOfServiceView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD91B5262AF3FCCF00DF1446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD91B53C2AF4014900DF1446 /* FirebaseAuth in Frameworks */,
+				AD91B5422AF4014900DF1446 /* FirebaseStorage in Frameworks */,
+				AD91B53E2AF4014900DF1446 /* FirebaseFirestore in Frameworks */,
+				AD91B5402AF4014900DF1446 /* FirebaseFirestoreSwift in Frameworks */,
+				AD91B6032AF4032A00DF1446 /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD91B5202AF3FCCE00DF1446 = {
+			isa = PBXGroup;
+			children = (
+				AD91B52B2AF3FCCF00DF1446 /* WaxPhilosophical */,
+				AD91B52A2AF3FCCF00DF1446 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD91B52A2AF3FCCF00DF1446 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5292AF3FCCF00DF1446 /* WaxPhilosophical.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD91B52B2AF3FCCF00DF1446 /* WaxPhilosophical */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B55F2AF4024700DF1446 /* Components */,
+				AD91B55A2AF4023C00DF1446 /* Extensions */,
+				AD91B5452AF401DD00DF1446 /* Source */,
+				AD91B5322AF3FCD000DF1446 /* Preview Content */,
+				AD91B5532AF4022D00DF1446 /* Protocols */,
+				AD91B5462AF4020900DF1446 /* Utils */,
+			);
+			path = WaxPhilosophical;
+			sourceTree = "<group>";
+		};
+		AD91B5322AF3FCD000DF1446 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5332AF3FCD000DF1446 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD91B5452AF401DD00DF1446 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5302AF3FCD000DF1446 /* Assets.xcassets */,
+				AD91B52E2AF3FCCF00DF1446 /* ContentView.swift */,
+				AD91B5432AF401C700DF1446 /* GoogleService-Info.plist */,
+				AD91B52C2AF3FCCF00DF1446 /* WaxPhilosophicalApp.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		AD91B5462AF4020900DF1446 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5472AF4020900DF1446 /* Constants.swift */,
+				AD91B5482AF4020900DF1446 /* TextArea.swift */,
+				AD91B5492AF4020900DF1446 /* BlueLinearGradient.swift */,
+				AD91B54A2AF4020900DF1446 /* CustomSecureField.swift */,
+				AD91B54B2AF4020900DF1446 /* CustomTextField.swift */,
+				AD91B54C2AF4020900DF1446 /* ConcaveTabbarShape.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AD91B5532AF4022D00DF1446 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5542AF4022D00DF1446 /* FirebaseUserService_Protocol.swift */,
+				AD91B5552AF4022D00DF1446 /* FirebaseAuthServiceProtocol.swift */,
+				AD91B5562AF4022D00DF1446 /* CollectionViewModelProtocol.swift */,
+			);
+			name = Protocols;
+			path = "../../../Chartofylákio/ReverseEngineeredTwitter/ReverseEngineeredTwitter/Protocols";
+			sourceTree = "<group>";
+		};
+		AD91B55A2AF4023C00DF1446 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B55B2AF4023C00DF1446 /* View+BottomPaddingBecauseOfCustomTab.swift */,
+				AD91B55C2AF4023C00DF1446 /* View+ForegroundLinearGradient.swift */,
+			);
+			name = Extensions;
+			path = "../../../Chartofylákio/ReverseEngineeredTwitter/ReverseEngineeredTwitter/Extensions";
+			sourceTree = "<group>";
+		};
+		AD91B55F2AF4024700DF1446 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5B52AF4024700DF1446 /* Authentication */,
+				AD91B5722AF4024700DF1446 /* Blocking */,
+				AD91B56F2AF4024700DF1446 /* ImageHandling */,
+				AD91B5602AF4024700DF1446 /* Messages */,
+				AD91B5BB2AF4024700DF1446 /* Notifications */,
+				AD91B5922AF4024700DF1446 /* Profile */,
+				AD91B58B2AF4024700DF1446 /* Search */,
+				AD91B5A72AF4024700DF1446 /* SideMenu */,
+				AD91B5B02AF4024700DF1446 /* TabsView */,
+				AD91B5C42AF4024700DF1446 /* TermsOfService */,
+				AD91B5872AF4024700DF1446 /* User */,
+				AD91B5792AF4024700DF1446 /* WPQuote */,
+			);
+			name = Components;
+			path = "../../../Chartofylákio/ReverseEngineeredTwitter/ReverseEngineeredTwitter/Components";
+			sourceTree = "<group>";
+		};
+		AD91B5602AF4024700DF1446 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5612AF4024700DF1446 /* ViewModels */,
+				AD91B5642AF4024700DF1446 /* UtilityViews */,
+				AD91B5662AF4024700DF1446 /* Models */,
+				AD91B5682AF4024700DF1446 /* Views */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		AD91B5612AF4024700DF1446 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5622AF4024700DF1446 /* ChatViewModel.swift */,
+				AD91B5632AF4024700DF1446 /* ConversationsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AD91B5642AF4024700DF1446 /* UtilityViews */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5652AF4024700DF1446 /* ChatBubble.swift */,
+			);
+			path = UtilityViews;
+			sourceTree = "<group>";
+		};
+		AD91B5662AF4024700DF1446 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5672AF4024700DF1446 /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AD91B5682AF4024700DF1446 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5692AF4024700DF1446 /* ConversationCell.swift */,
+				AD91B56A2AF4024700DF1446 /* MessageInputView.swift */,
+				AD91B56B2AF4024700DF1446 /* NewMessageView.swift */,
+				AD91B56C2AF4024700DF1446 /* MessagesView.swift */,
+				AD91B56D2AF4024700DF1446 /* ChatView.swift */,
+				AD91B56E2AF4024700DF1446 /* MessageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD91B56F2AF4024700DF1446 /* ImageHandling */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5702AF4024700DF1446 /* UploadImageService.swift */,
+				AD91B5712AF4024700DF1446 /* ImagePicker.swift */,
+			);
+			path = ImageHandling;
+			sourceTree = "<group>";
+		};
+		AD91B5722AF4024700DF1446 /* Blocking */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5732AF4024700DF1446 /* ViewModel */,
+				AD91B5752AF4024700DF1446 /* Models */,
+				AD91B5772AF4024700DF1446 /* BlockView.swift */,
+				AD91B5782AF4024700DF1446 /* Views */,
+			);
+			path = Blocking;
+			sourceTree = "<group>";
+		};
+		AD91B5732AF4024700DF1446 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5742AF4024700DF1446 /* Block_CollectionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AD91B5752AF4024700DF1446 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5762AF4024700DF1446 /* Block.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AD91B5782AF4024700DF1446 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD91B5792AF4024700DF1446 /* WPQuote */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B57A2AF4024700DF1446 /* ViewModels */,
+				AD91B57E2AF4024700DF1446 /* Models */,
+				AD91B5802AF4024700DF1446 /* Views */,
+			);
+			path = WPQuote;
+			sourceTree = "<group>";
+		};
+		AD91B57A2AF4024700DF1446 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B57B2AF4024700DF1446 /* WPActionViewModel.swift */,
+				AD91B57C2AF4024700DF1446 /* WPQuote_CollectionViewModel.swift */,
+				AD91B57D2AF4024700DF1446 /* UploadWPQuoteViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AD91B57E2AF4024700DF1446 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B57F2AF4024700DF1446 /* WPQuote.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AD91B5802AF4024700DF1446 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5812AF4024700DF1446 /* WPQuoteCollectionView.swift */,
+				AD91B5822AF4024700DF1446 /* WPQuoteCell.swift */,
+				AD91B5832AF4024700DF1446 /* AddWPQuoteView.swift */,
+				AD91B5842AF4024700DF1446 /* ReplyCell.swift */,
+				AD91B5852AF4024700DF1446 /* WPQuoteDetailView.swift */,
+				AD91B5862AF4024700DF1446 /* WPActionsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD91B5872AF4024700DF1446 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5882AF4024700DF1446 /* UserService.swift */,
+				AD91B5892AF4024700DF1446 /* AppUser.swift */,
+				AD91B58A2AF4024700DF1446 /* UserStats.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		AD91B58B2AF4024700DF1446 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B58C2AF4024700DF1446 /* ViewModels */,
+				AD91B58E2AF4024700DF1446 /* Views */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		AD91B58C2AF4024700DF1446 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B58D2AF4024700DF1446 /* SearchViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AD91B58E2AF4024700DF1446 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B58F2AF4024700DF1446 /* SearchView.swift */,
+				AD91B5902AF4024700DF1446 /* SearchBar.swift */,
+				AD91B5912AF4024700DF1446 /* SearchedUserCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD91B5922AF4024700DF1446 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5932AF4024700DF1446 /* ViewModels */,
+				AD91B5962AF4024700DF1446 /* ForOtherUser */,
+				AD91B59B2AF4024700DF1446 /* ForCurrentUser */,
+				AD91B5A32AF4024700DF1446 /* Views */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		AD91B5932AF4024700DF1446 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5942AF4024700DF1446 /* EditProfileViewModel.swift */,
+				AD91B5952AF4024700DF1446 /* ProfileViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AD91B5962AF4024700DF1446 /* ForOtherUser */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5972AF4024700DF1446 /* ViewModel */,
+				AD91B5992AF4024700DF1446 /* View */,
+			);
+			path = ForOtherUser;
+			sourceTree = "<group>";
+		};
+		AD91B5972AF4024700DF1446 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5982AF4024700DF1446 /* OtherUserProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AD91B5992AF4024700DF1446 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B59A2AF4024700DF1446 /* OtherUserProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AD91B59B2AF4024700DF1446 /* ForCurrentUser */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B59C2AF4024700DF1446 /* ViewModel */,
+				AD91B59E2AF4024700DF1446 /* View */,
+			);
+			path = ForCurrentUser;
+			sourceTree = "<group>";
+		};
+		AD91B59C2AF4024700DF1446 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B59D2AF4024700DF1446 /* CurrentUserProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AD91B59E2AF4024700DF1446 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B59F2AF4024700DF1446 /* CurrentUserProfileView.swift */,
+				AD91B5A02AF4024700DF1446 /* ProfilePicView.swift */,
+				AD91B5A12AF4024700DF1446 /* CurrentUser_ProfileView.swift */,
+				AD91B5A22AF4024700DF1446 /* FullnameView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AD91B5A32AF4024700DF1446 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5A42AF4024700DF1446 /* EditProfileView.swift */,
+				AD91B5A52AF4024700DF1446 /* ProfileHeaderView.swift */,
+				AD91B5A62AF4024700DF1446 /* ProfileActionButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD91B5A72AF4024700DF1446 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5A82AF4024700DF1446 /* ViewModels */,
+				AD91B5AA2AF4024700DF1446 /* Models */,
+				AD91B5AB2AF4024700DF1446 /* Views */,
+				AD91B5AE2AF4024700DF1446 /* ViewModifiers */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		AD91B5A82AF4024700DF1446 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5A92AF4024700DF1446 /* SideMenuViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AD91B5AA2AF4024700DF1446 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AD91B5AB2AF4024700DF1446 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5AC2AF4024700DF1446 /* SideMenuOptionView.swift */,
+				AD91B5AD2AF4024700DF1446 /* MenuView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD91B5AE2AF4024700DF1446 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5AF2AF4024700DF1446 /* SideMenuAction.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		AD91B5B02AF4024700DF1446 /* TabsView */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5B12AF4024700DF1446 /* Views */,
+				AD91B5B32AF4024700DF1446 /* Services */,
+			);
+			path = TabsView;
+			sourceTree = "<group>";
+		};
+		AD91B5B12AF4024700DF1446 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5B22AF4024700DF1446 /* TabsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD91B5B32AF4024700DF1446 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5B42AF4024700DF1446 /* TabbarService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AD91B5B52AF4024700DF1446 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5B62AF4024700DF1446 /* Views */,
+				AD91B5B92AF4024700DF1446 /* Services */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		AD91B5B62AF4024700DF1446 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5B72AF4024700DF1446 /* RegistrationView.swift */,
+				AD91B5B82AF4024700DF1446 /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD91B5B92AF4024700DF1446 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5BA2AF4024700DF1446 /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AD91B5BB2AF4024700DF1446 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5BC2AF4024700DF1446 /* ViewModels */,
+				AD91B5BE2AF4024700DF1446 /* Models */,
+				AD91B5C02AF4024700DF1446 /* Views */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		AD91B5BC2AF4024700DF1446 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5BD2AF4024700DF1446 /* NotificationViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AD91B5BE2AF4024700DF1446 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5BF2AF4024700DF1446 /* Notification.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AD91B5C02AF4024700DF1446 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5C12AF4024700DF1446 /* NotificationTweetView.swift */,
+				AD91B5C22AF4024700DF1446 /* NotificationCell.swift */,
+				AD91B5C32AF4024700DF1446 /* NotificationsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD91B5C42AF4024700DF1446 /* TermsOfService */ = {
+			isa = PBXGroup;
+			children = (
+				AD91B5C52AF4024700DF1446 /* TermsOfServiceView.swift */,
+			);
+			path = TermsOfService;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD91B5282AF3FCCF00DF1446 /* WaxPhilosophical */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD91B5372AF3FCD000DF1446 /* Build configuration list for PBXNativeTarget "WaxPhilosophical" */;
+			buildPhases = (
+				AD91B5252AF3FCCF00DF1446 /* Sources */,
+				AD91B5262AF3FCCF00DF1446 /* Frameworks */,
+				AD91B5272AF3FCCF00DF1446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaxPhilosophical;
+			packageProductDependencies = (
+				AD91B53B2AF4014900DF1446 /* FirebaseAuth */,
+				AD91B53D2AF4014900DF1446 /* FirebaseFirestore */,
+				AD91B53F2AF4014900DF1446 /* FirebaseFirestoreSwift */,
+				AD91B5412AF4014900DF1446 /* FirebaseStorage */,
+				AD91B6022AF4032A00DF1446 /* Kingfisher */,
+			);
+			productName = WaxPhilosophical;
+			productReference = AD91B5292AF3FCCF00DF1446 /* WaxPhilosophical.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD91B5212AF3FCCE00DF1446 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AD91B5282AF3FCCF00DF1446 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AD91B5242AF3FCCE00DF1446 /* Build configuration list for PBXProject "WaxPhilosophical" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD91B5202AF3FCCE00DF1446;
+			packageReferences = (
+				AD91B53A2AF4014900DF1446 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				AD91B6012AF4032A00DF1446 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = AD91B52A2AF3FCCF00DF1446 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD91B5282AF3FCCF00DF1446 /* WaxPhilosophical */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD91B5272AF3FCCF00DF1446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD91B5342AF3FCD000DF1446 /* Preview Assets.xcassets in Resources */,
+				AD91B5312AF3FCD000DF1446 /* Assets.xcassets in Resources */,
+				AD91B5442AF401C700DF1446 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD91B5252AF3FCCF00DF1446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD91B55E2AF4023C00DF1446 /* View+ForegroundLinearGradient.swift in Sources */,
+				AD91B5512AF4020900DF1446 /* CustomTextField.swift in Sources */,
+				AD91B5DD2AF4024700DF1446 /* WPQuoteDetailView.swift in Sources */,
+				AD91B5D62AF4024700DF1446 /* WPQuote_CollectionViewModel.swift in Sources */,
+				AD91B5D12AF4024700DF1446 /* ImagePicker.swift in Sources */,
+				AD91B52F2AF3FCCF00DF1446 /* ContentView.swift in Sources */,
+				AD91B5F52AF4024700DF1446 /* SideMenuAction.swift in Sources */,
+				AD91B5F82AF4024700DF1446 /* RegistrationView.swift in Sources */,
+				AD91B5D42AF4024700DF1446 /* BlockView.swift in Sources */,
+				AD91B5DB2AF4024700DF1446 /* AddWPQuoteView.swift in Sources */,
+				AD91B5F22AF4024700DF1446 /* SideMenuViewModel.swift in Sources */,
+				AD91B5C92AF4024700DF1446 /* Message.swift in Sources */,
+				AD91B5E42AF4024700DF1446 /* SearchBar.swift in Sources */,
+				AD91B5DA2AF4024700DF1446 /* WPQuoteCell.swift in Sources */,
+				AD91B5F12AF4024700DF1446 /* ProfileActionButtonView.swift in Sources */,
+				AD91B5CE2AF4024700DF1446 /* ChatView.swift in Sources */,
+				AD91B5FC2AF4024700DF1446 /* Notification.swift in Sources */,
+				AD91B55D2AF4023C00DF1446 /* View+BottomPaddingBecauseOfCustomTab.swift in Sources */,
+				AD91B5E52AF4024700DF1446 /* SearchedUserCell.swift in Sources */,
+				AD91B5E92AF4024700DF1446 /* OtherUserProfileView.swift in Sources */,
+				AD91B5582AF4022D00DF1446 /* FirebaseAuthServiceProtocol.swift in Sources */,
+				AD91B5DE2AF4024700DF1446 /* WPActionsView.swift in Sources */,
+				AD91B5E32AF4024700DF1446 /* SearchView.swift in Sources */,
+				AD91B52D2AF3FCCF00DF1446 /* WaxPhilosophicalApp.swift in Sources */,
+				AD91B5F92AF4024700DF1446 /* LoginView.swift in Sources */,
+				AD91B5C72AF4024700DF1446 /* ConversationsViewModel.swift in Sources */,
+				AD91B5E02AF4024700DF1446 /* AppUser.swift in Sources */,
+				AD91B5CA2AF4024700DF1446 /* ConversationCell.swift in Sources */,
+				AD91B5FA2AF4024700DF1446 /* AuthService.swift in Sources */,
+				AD91B5D52AF4024700DF1446 /* WPActionViewModel.swift in Sources */,
+				AD91B5F42AF4024700DF1446 /* MenuView.swift in Sources */,
+				AD91B5F32AF4024700DF1446 /* SideMenuOptionView.swift in Sources */,
+				AD91B5EC2AF4024700DF1446 /* ProfilePicView.swift in Sources */,
+				AD91B5E72AF4024700DF1446 /* ProfileViewModel.swift in Sources */,
+				AD91B5EF2AF4024700DF1446 /* EditProfileView.swift in Sources */,
+				AD91B5CC2AF4024700DF1446 /* NewMessageView.swift in Sources */,
+				AD91B5E82AF4024700DF1446 /* OtherUserProfileViewModel.swift in Sources */,
+				AD91B5D22AF4024700DF1446 /* Block_CollectionViewModel.swift in Sources */,
+				AD91B5C82AF4024700DF1446 /* ChatBubble.swift in Sources */,
+				AD91B5E12AF4024700DF1446 /* UserStats.swift in Sources */,
+				AD91B5D02AF4024700DF1446 /* UploadImageService.swift in Sources */,
+				AD91B5CD2AF4024700DF1446 /* MessagesView.swift in Sources */,
+				AD91B5F62AF4024700DF1446 /* TabsView.swift in Sources */,
+				AD91B54D2AF4020900DF1446 /* Constants.swift in Sources */,
+				AD91B54E2AF4020900DF1446 /* TextArea.swift in Sources */,
+				AD91B5F72AF4024700DF1446 /* TabbarService.swift in Sources */,
+				AD91B5FF2AF4024700DF1446 /* NotificationsView.swift in Sources */,
+				AD91B5EE2AF4024700DF1446 /* FullnameView.swift in Sources */,
+				AD91B5EA2AF4024700DF1446 /* CurrentUserProfileViewModel.swift in Sources */,
+				AD91B5FE2AF4024700DF1446 /* NotificationCell.swift in Sources */,
+				AD91B5FB2AF4024700DF1446 /* NotificationViewModel.swift in Sources */,
+				AD91B5C62AF4024700DF1446 /* ChatViewModel.swift in Sources */,
+				AD91B5D92AF4024700DF1446 /* WPQuoteCollectionView.swift in Sources */,
+				AD91B5F02AF4024700DF1446 /* ProfileHeaderView.swift in Sources */,
+				AD91B5D72AF4024700DF1446 /* UploadWPQuoteViewModel.swift in Sources */,
+				AD91B5DC2AF4024700DF1446 /* ReplyCell.swift in Sources */,
+				AD91B5E62AF4024700DF1446 /* EditProfileViewModel.swift in Sources */,
+				AD91B5572AF4022D00DF1446 /* FirebaseUserService_Protocol.swift in Sources */,
+				AD91B5ED2AF4024700DF1446 /* CurrentUser_ProfileView.swift in Sources */,
+				AD91B5CB2AF4024700DF1446 /* MessageInputView.swift in Sources */,
+				AD91B5502AF4020900DF1446 /* CustomSecureField.swift in Sources */,
+				AD91B5DF2AF4024700DF1446 /* UserService.swift in Sources */,
+				AD91B5592AF4022D00DF1446 /* CollectionViewModelProtocol.swift in Sources */,
+				AD91B5E22AF4024700DF1446 /* SearchViewModel.swift in Sources */,
+				AD91B5CF2AF4024700DF1446 /* MessageView.swift in Sources */,
+				AD91B5D32AF4024700DF1446 /* Block.swift in Sources */,
+				AD91B5D82AF4024700DF1446 /* WPQuote.swift in Sources */,
+				AD91B54F2AF4020900DF1446 /* BlueLinearGradient.swift in Sources */,
+				AD91B5522AF4020900DF1446 /* ConcaveTabbarShape.swift in Sources */,
+				AD91B5EB2AF4024700DF1446 /* CurrentUserProfileView.swift in Sources */,
+				AD91B5FD2AF4024700DF1446 /* NotificationTweetView.swift in Sources */,
+				AD91B6002AF4024700DF1446 /* TermsOfServiceView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AD91B5352AF3FCD000DF1446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD91B5362AF3FCD000DF1446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD91B5382AF3FCD000DF1446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaxPhilosophical/Preview Content\"";
+				DEVELOPMENT_TEAM = 56XJ9U4YYK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chhamilton00.WaxPhilosophical;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AD91B5392AF3FCD000DF1446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaxPhilosophical/Preview Content\"";
+				DEVELOPMENT_TEAM = 56XJ9U4YYK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chhamilton00.WaxPhilosophical;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD91B5242AF3FCCE00DF1446 /* Build configuration list for PBXProject "WaxPhilosophical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD91B5352AF3FCD000DF1446 /* Debug */,
+				AD91B5362AF3FCD000DF1446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD91B5372AF3FCD000DF1446 /* Build configuration list for PBXNativeTarget "WaxPhilosophical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD91B5382AF3FCD000DF1446 /* Debug */,
+				AD91B5392AF3FCD000DF1446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AD91B53A2AF4014900DF1446 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		AD91B6012AF4032A00DF1446 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AD91B53B2AF4014900DF1446 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD91B53A2AF4014900DF1446 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		AD91B53D2AF4014900DF1446 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD91B53A2AF4014900DF1446 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		AD91B53F2AF4014900DF1446 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD91B53A2AF4014900DF1446 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		AD91B5412AF4014900DF1446 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD91B53A2AF4014900DF1446 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		AD91B6022AF4032A00DF1446 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD91B6012AF4032A00DF1446 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AD91B5212AF3FCCE00DF1446 /* Project object */;
+}
