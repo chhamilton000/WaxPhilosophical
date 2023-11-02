@@ -5,7 +5,7 @@
 //  Created by Caley Hamilton on 11/2/23.
 //
 
-import Kingfisher
+import KingfisherSwiftUI
 import SwiftUI
 
 struct ContentView: View {
